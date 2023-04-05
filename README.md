@@ -1,11 +1,11 @@
-About include-what-you-use
-==========================
+About include-what-you-use-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/include-what-you-use-feedstock/blob/main/LICENSE.txt)
 
 Home: https://include-what-you-use.org
 
 Package license: NCSA
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/include-what-you-use-feedstock/blob/main/LICENSE.txt)
 
 Summary: A tool for use with clang to analyze #includes in C and C++ source files
 
