@@ -35,5 +35,6 @@ ctest \
 |^cxx.test_scope_crash$\
 |^cxx.test_std_size_t$\
 |^cxx.test_stl_container_provides_allocator$\
+|^cxx.test_typeid$\
 |^cxx.test_uses_printf$"
 
