@@ -11,22 +11,23 @@ source:
   sha256: 4fe4bd5581ee60bb2bcf1bf40f087a8c5b090d943d0376233638f30f29af0e2e
 
 build:
-  number: 0
-  skip: true  # [win]
+  number: 1
 
 requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - cmake
-    - python
     - make
+    - python
   host:
     - clangdev {{ llvm_version }}
     - llvmdev {{ llvm_version }}
     - llvm {{ llvm_version }}
     - libclang-cpp {{ llvm_version }}
     - lld {{ llvm_version }}
+  run:
+    - python  # [win]
 test:
   commands:
     - {{ name }} --version
