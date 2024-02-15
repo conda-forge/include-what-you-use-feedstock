@@ -200,6 +200,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@galexite](https://github.com/galexite/)
 * [@xmnlab](https://github.com/xmnlab/)
 * [@xylar](https://github.com/xylar/)
 
