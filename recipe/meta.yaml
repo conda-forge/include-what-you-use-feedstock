@@ -7,11 +7,12 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/{{ name }}/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
+  git_url: https://github.com/{{ name }}/{{ name }}.git
+  git_rev: {{ version }}
   sha256: 34c7636da2abe7b86580b53b762f5269e71efff460f24f17d5913c56eb99cb7c
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
