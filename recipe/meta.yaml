@@ -1,6 +1,6 @@
 {% set name = "include-what-you-use" %}
-{% set version = "0.22" %}
-{% set llvm_version = "18.*" %}
+{% set version = "0.23" %}
+{% set llvm_version = "19.*" %}
 
 package:
   name: {{ name|lower }}
@@ -8,14 +8,15 @@ package:
 
 source:
   url: https://github.com/{{ name }}/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 34c7636da2abe7b86580b53b762f5269e71efff460f24f17d5913c56eb99cb7c
+  sha256: 16672743fdf781d7db313f48c7f4b34bc6517eddfd92d7db793790fe793a306c
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - cmake
     - python
