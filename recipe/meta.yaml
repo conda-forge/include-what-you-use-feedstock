@@ -1,10 +1,10 @@
 {% set name = "include-what-you-use" %}
 {% set version = "0.26" %}
-{% set llvm_version = "21.*" %}
+{% set llvm_version = "22.*" %}
 
 package:
   name: {{ name|lower }}
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://github.com/{{ name }}/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
@@ -15,9 +15,9 @@ build:
 
 requirements:
   build:
-    - {{ compiler('c') }}
+    - {{ compiler("c") }}
     - {{ stdlib("c") }}
-    - {{ compiler('cxx') }}
+    - {{ compiler("cxx") }}
     - cmake
     - python
     - ninja
