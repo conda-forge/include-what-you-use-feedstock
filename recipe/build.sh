@@ -1,4 +1,13 @@
 #!/usr/bin/env bash
+
+# Possible upstream bug? Nothing obviously different between us and upstream CI.
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+  echo <<EOF >>CMakeLists.txt
+find_package(Threads REQUIRED)
+target_link_libraries(iwyu-gtest PRIVATE Threads::Threads)
+EOF
+fi
+
 mkdir -p build
 cd build
 
