@@ -2,9 +2,9 @@
 
 # Possible upstream bug? Nothing obviously different between us and upstream CI.
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
-  echo <<EOF >>CMakeLists.txt
+  cat <<EOF >>CMakeLists.txt
 find_package(Threads REQUIRED)
-target_link_libraries(iwyu-gtest PRIVATE Threads::Threads)
+target_link_libraries(iwyu-gtest PUBLIC Threads::Threads)
 EOF
 fi
 
