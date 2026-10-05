@@ -3,7 +3,7 @@ About include-what-you-use-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/include-what-you-use-feedstock/blob/main/LICENSE.txt)
 
-Home: https://include-what-you-use.org
+Home: https://include-what-you-use.org/
 
 Package license: NCSA
 
@@ -11,13 +11,12 @@ Summary: A tool for use with clang to analyze #includes in C and C++ source file
 
 Development: https://github.com/include-what-you-use/include-what-you-use
 
-Documentation: https://include-what-you-use.org
+Documentation: https://include-what-you-use.org/
 
 "Include what you use" means this: for every symbol (type, function, variable, or macro)
 that you use in foo.cc (or foo.cpp), either foo.cc or foo.h should include a .h file that
 exports the declaration of that symbol. (Similarly, for foo_test.cc, either foo_test.cc or foo.h
 should do the including.) Obviously symbols defined in foo.cc itself are excluded from this requirement.
-
 
 Current build status
 ====================
