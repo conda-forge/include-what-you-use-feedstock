@@ -1,9 +1,9 @@
 About include-what-you-use-feedstock
 ====================================
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/include-what-you-use-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conda_forge_admin_19-feedstock/blob/main/LICENSE.txt)
 
-Home: https://include-what-you-use.org
+Home: https://include-what-you-use.org/
 
 Package license: NCSA
 
@@ -11,13 +11,12 @@ Summary: A tool for use with clang to analyze #includes in C and C++ source file
 
 Development: https://github.com/include-what-you-use/include-what-you-use
 
-Documentation: https://include-what-you-use.org
+Documentation: https://include-what-you-use.org/
 
 "Include what you use" means this: for every symbol (type, function, variable, or macro)
 that you use in foo.cc (or foo.cpp), either foo.cc or foo.h should include a .h file that
 exports the declaration of that symbol. (Similarly, for foo_test.cc, either foo_test.cc or foo.h
 should do the including.) Obviously symbols defined in foo.cc itself are excluded from this requirement.
-
 
 Current build status
 ====================
@@ -26,8 +25,8 @@ Current build status
 <table><tr>
     <td>GitHub Actions</td>
     <td>
-      <a href="https://github.com/conda-forge/include-what-you-use-feedstock/actions/workflows/conda-build.yml">
-        <img src="https://github.com/conda-forge/include-what-you-use-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+      <a href="https://github.com/conda-forge/conda_forge_admin_19-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/conda_forge_admin_19-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
       </a>
     </td>
   </tr>
@@ -37,8 +36,8 @@ Current build status
     <td>
       <details>
         <summary>
-          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16079&branchName=main">
-            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/include-what-you-use-feedstock?branchName=main">
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=None&branchName=main">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/conda_forge_admin_19-feedstock?branchName=main">
           </a>
         </summary>
         <table>
@@ -46,15 +45,15 @@ Current build status
           <tbody><tr>
               <td>osx_64</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16079&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/include-what-you-use-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=None&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/conda_forge_admin_19-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_arm64</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16079&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/include-what-you-use-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=None&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/conda_forge_admin_19-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
                 </a>
               </td>
             </tr>
@@ -233,7 +232,4 @@ Feedstock Maintainers
 * [@galexite](https://github.com/galexite/)
 * [@xmnlab](https://github.com/xmnlab/)
 * [@xylar](https://github.com/xylar/)
-
-
-<!-- dummy commit to enable rerendering -->
 
